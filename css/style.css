@@ -1,0 +1,266 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family:  sans-serif;
+}
+header{
+	background-color: #3C5B9A;
+}
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+    width: 20%;
+    margin-top: 9px;
+    float: left;
+}
+.logo img{
+	width: 100%;
+	/*font-family: inherit;
+	cursor: pointer;
+	color: #FFFFFF;*/
+}
+.login {
+	width: 80%;
+	float: left;
+}
+table{
+        float: right;
+    margin-top: 16px;
+    margin-bottom: 5px;
+   
+}
+ tr td{
+ 	 color: #fff;
+    font-weight: normal;
+    padding-left: 1px;
+    font-size: 12px;
+ }
+ td input{
+    outline: none;
+    border: 1px solid #1d2a5b;
+ 	padding: 2px 3px;
+ 	margin-right: 7px;
+    width: 140px;
+ }
+ td a{
+ 	color: #90aeca;
+ 	text-decoration: none;
+ }
+ .login-button{
+ 	background-color: #5177c1b3;
+    color: #FFFFFF;
+    outline: none;
+    border: 1px solid #1d2a5b;
+    border-color: #29487d;
+    padding: 2px 4px;
+ }
+ /*container start */
+ .container{
+     background-image: linear-gradient( #FCFCFD,#D8DDEB);
+ }
+ .left{
+    width: 65%;
+    float: left;
+    
+ }
+ 
+.left h1{
+    color: #0e385f;
+    font-size: 20px;
+    font-weight: bold;
+    line-height: 29px;
+    margin-top: 40px;
+    width: 450px;
+    word-spacing: -1px;
+    }
+    .left img{
+
+    }
+    .right{
+    width: 35%;
+    float: left;
+   
+ }
+ .right-header { 	
+    padding-top: 20px;
+    padding-bottom: 20px;
+ }
+ .right-header h1{
+	font-size: 36px;
+	color: #333333;
+	font-weight: 600;
+	margin-bottom: 5px;
+ }
+ .right-header p{
+	font-weight: normal;
+	color: #1d2129;
+    font-size: 19px;
+ }
+ .regis-form{
+
+ }
+.first_name, .Surname, .reg_email_numb, .regi_password{
+    font-size: 19px;
+    padding: 7px 0;
+    padding-left: 8px;
+    width: 45%;
+    border: none;
+    border: 1px solid #9c999f57;
+    border-radius: 5px;
+    outline: none;
+    background: white;
+    margin-bottom: 10px;
+}
+
+.reg_email_numb, .regi_password{
+    width: 94%;
+}
+label{
+    font-weight: normal;
+    color: #1d2129;
+    font-size: 19px;
+}
+select{
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    padding-left: 8px;
+    border: none;
+    border: 1px solid #9c999fb3;
+    outline: none;
+    background: white;
+    margin-bottom: 10px;
+}
+.provide-date{
+    font-size: 11px;
+    max-width: 150px;
+    float: left;
+    position: absolute;
+    margin-left: 7px;
+    text-decoration: none;
+    color: #365899;
+    cursor: pointer;
+    margin-top: 3px;
+}
+span{
+    color: #1d2129;
+    font-size: 18px;
+    font-weight: normal;
+    line-height: 18px;
+    padding: 0 10px 0 3px;
+}
+
+.fb-condtion{
+        margin-right: 70px;
+}
+.fb-condtion p{
+    color: #777;
+    font-size: 11px;
+}
+.fb-condtion a{
+   color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
+.signup-button{
+    width: 180px;
+    padding: 7px 20px;
+    text-align: center;
+    font-size: 19px;
+    font-family: 'Freight Sans Bold', Helvetica, Arial, sans-serif !important;
+    font-weight: bold !important;
+    letter-spacing: normal;
+    background: linear-gradient(#67ae55, #578843);
+    box-shadow: inset 0 1px 1px #a4e388;
+    border: none;
+    border: 1px solid #408c1a;
+    border-radius: 4px;
+    color: white;
+}
+
+.reg_msg{
+    color: #666;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 30px;
+    padding-bottom: 15px;
+}
+.reg_msg a{
+    color: #365899;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+ /*container end*/
+ /*footer start*/
+ .footer-top p {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    font-family: tahoma;
+    font-size: 13px;
+       color: #6B6B6B;
+    float: left;
+}
+
+.footer-top ul{
+        float: left;
+    padding-left: 15px;
+    margin-top: 38px;
+}
+.footer-top ul li{
+    list-style: none;
+    float: left;
+}
+.footer-top ul li a{
+       display: block;
+    color: #3C5A98;
+    text-decoration: none;
+    padding-left: 15px;
+    font-size: 13px;
+    
+}
+
+.footer-hr {
+        border: .5px solid #CDCDCD;
+    clear: both;
+}
+
+.footer-bottom{
+     margin-left: 33px;
+    
+    margin-bottom: 40px;
+    font-family: tahoma;
+    font-size: 13px;
+    text-align: center;
+    color: #6B6B6B;
+}
+footer-bottom ul{}
+.footer-bottom ul li{
+     list-style: none;
+    float: left;
+}
+.footer-bottom ul li a{
+        display: block;
+    color: #3C5A98;
+    text-decoration: none;
+    padding-right: 11px;
+    font-size: 13px;
+    line-height: 1.7;
+    padding-left: 7px;
+}
+.fb-date p{
+        font-family: tahoma;
+    font-size: 12px;
+    font-weight: inherit;
+    color: #6B6B6B;
+    margin: 30px 171px;
+}
+
